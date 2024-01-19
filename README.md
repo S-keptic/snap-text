@@ -1,20 +1,25 @@
-<h1> SnapText <h1/>
-
+SnapText Web App
 Overview
 
-The Note-It web app is designed to address the common need of saving written information from paper for future reference. Traditional methods like taking a picture might result in blurred details, but Note-It goes beyond that by utilizing text recognition to extract and store the content.
+The SnapText web app revolutionizes the way you save handwritten or printed information. Beyond traditional image capture, SnapText employs cutting-edge text recognition technology. It not only captures but also saves the converted images, providing a seamless solution for preserving important details.
 Features
 
-    Text Recognition: The app employs advanced text recognition technology to extract text or numbers from images of handwritten or printed content.
+    Text Recognition: Utilizes advanced OCR (Optical Character Recognition) technology to extract text or numbers from images.
 
-    Save for Reference: The recognized content is stored within the app, providing a convenient way to keep track of important information without the risk of losing details.
+    Save Converted Images: Stores the converted images alongside the recognized text, creating a comprehensive repository for future reference.
 
-    User-Friendly Interface: The web app offers a simple and intuitive interface, making it easy for users to capture and store information effortlessly.
+    User Authentication: Secure user login and registration system to personalize the experience and safeguard user data.
+
+    Save for Reference: The recognized content and converted images are securely stored within the app, allowing users to easily retrieve and manage information.
+
+    User-Friendly Interface: An intuitive and user-friendly interface ensures a smooth experience for capturing, converting, and managing text-based content.
 
 How It Works
 
+    User Registration/Login: Create an account or log in to access personalized features.
+
     Capture Image: Use the app to capture an image of the written or printed content you want to save.
 
-    Text Recognition: The app automatically processes the image, recognizes the text or numbers, and extracts the content.
+    Text Recognition: The app automatically processes the image, recognizes the text or numbers, and stores both the text and the converted image.
 
-    Save for Later: The extracted content is then stored within the app, organized for easy retrieval whenever needed.
+    Save for Later: The recognized content and converted images are securely saved within the app, organized for easy retrieval.
