@@ -20,9 +20,9 @@ How It Works:
 
 1)User Registration/Login: Create an account or log in to access personalized features.
 
-2)Capture Image: Use the app to capture an image of the written or printed content you want to save.
+2)Upload Image: Use the app to upload an image of the printed content you want to save.
 
-3)Text Recognition: The app automatically processes the image, recognizes the text or numbers, and stores both the text and the converted image.
+3)Text Recognition: The app automatically processes the image, recognizes the text or numbers, and stores the text.
 
 4)Save for Later: The recognized content and converted images are securely saved within the app, organized for easy retrieval.
     
