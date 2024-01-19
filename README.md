@@ -2,24 +2,28 @@ SnapText Web App
 Overview
 
 The SnapText web app revolutionizes the way you save handwritten or printed information. Beyond traditional image capture, SnapText employs cutting-edge text recognition technology. It not only captures but also saves the converted images, providing a seamless solution for preserving important details.
-Features
 
-    Text Recognition: Utilizes advanced OCR (Optical Character Recognition) technology to extract text or numbers from images.
 
-    Save Converted Images: Stores the converted images alongside the recognized text, creating a comprehensive repository for future reference.
+Features:
 
-    User Authentication: Secure user login and registration system to personalize the experience and safeguard user data.
+1)Text Recognition: Utilizes advanced OCR (Optical Character Recognition) technology to extract text or numbers from images.
 
-    Save for Reference: The recognized content and converted images are securely stored within the app, allowing users to easily retrieve and manage information.
+2)Save Converted Images: Stores the converted images alongside the recognized text, creating a comprehensive repository for future reference.
 
-    User-Friendly Interface: An intuitive and user-friendly interface ensures a smooth experience for capturing, converting, and managing text-based content.
+3)User Authentication: Secure user login and registration system to personalize the experience and safeguard user data.
 
-How It Works
+4)Save for Reference: The recognized content and converted images are securely stored within the app, allowing users to easily retrieve and manage information.
 
-    User Registration/Login: Create an account or log in to access personalized features.
+5)User-Friendly Interface: An intuitive and user-friendly interface ensures a smooth experience for capturing, converting, and managing text-based content.
 
-    Capture Image: Use the app to capture an image of the written or printed content you want to save.
+How It Works:
 
-    Text Recognition: The app automatically processes the image, recognizes the text or numbers, and stores both the text and the converted image.
+1)User Registration/Login: Create an account or log in to access personalized features.
 
-    Save for Later: The recognized content and converted images are securely saved within the app, organized for easy retrieval.
+2)Capture Image: Use the app to capture an image of the written or printed content you want to save.
+
+3)Text Recognition: The app automatically processes the image, recognizes the text or numbers, and stores both the text and the converted image.
+
+4)Save for Later: The recognized content and converted images are securely saved within the app, organized for easy retrieval.
+    
+                                                                                           Made with ♥️ by {Sanity} 
