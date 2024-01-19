@@ -8,11 +8,11 @@ Features:
 
 1)Text Recognition: Utilizes Tesseract.js (advanced OCR Optical Character Recognition)  technology to extract text or numbers from images.
 
-2)Save Converted Images: Stores the converted images alongside the recognized text, creating a comprehensive repository for future reference.
+2)Save Converted text: Stores the converted the recognized text, creating a comprehensive repository for future reference.
 
 3)User Authentication: Secure user login and registration system to personalize the experience and safeguard user data.
 
-4)Save for Reference: The recognized content and converted images are securely stored within the app, allowing users to easily retrieve and manage information.
+4)Save for Reference: The recognized content is securely stored within the app, allowing users to easily retrieve and manage information.
 
 5)User-Friendly Interface: An intuitive and user-friendly interface ensures a smooth experience for capturing, converting, and managing text-based content.
 
