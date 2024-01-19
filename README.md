@@ -1,4 +1,4 @@
-<h1>SnapText Web App<h1/>
+SnapText Web App
 
 
 The SnapText web app revolutionizes the way you save handwritten or printed information. Beyond traditional image capture, SnapText employs cutting-edge text recognition technology. It not only captures but also saves the converted images, providing a seamless solution for preserving important details.
