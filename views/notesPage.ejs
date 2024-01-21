@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/output.css" rel="stylesheet">
+    <title>Notes</title>
+</head>
+
+<body class="bg-[#B3B8F5]">
+    <header class="text-gray-400 bg-[#B3B8F5] body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a href="/" class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+                <img src="/SnapTextLogo.png" class="h-12">
+                <a class="hover:hidden"><span class="ml-3 text-3xl text-white hover:text-black">SnapText</span></a>
+            </a>
+            <a href="/user/dashboard" class="inline-flex items-end bg-[#6F7AFF] border-0 py-3 px-5 focus:outline-none hover:bg-blue-700 text-white rounded-md text-base mt-4 md:mt-0 md:ml-auto md:mr-5 flex flex-wrap items-end text-base justify-end">Home</a>
+            <a href="/" class="bg-[#6F7AFF] border-0 py-3 px-5 focus:outline-none hover:bg-blue-700 text-white rounded-md">Sign Out</a>
+        </div>
+        
+    </header>
+    <hr class="h-px bg-gray-200 border-0 dark:bg-gray-700">
+    <div class="flex">
+        <div class="w-full min-h-[100vh] pb-[50px] flex flex-wrap bg-[#6F7AFF] text-white ml-10 mr-10" style="
+        margin-left: 13rem;
+        margin-right: 13rem;
+        margin-top: 4rem;
+        border-radius: 3rem;
+        font-size: x-large;">
+            <% if (notes && notes.length > 0) { %>
+                <% notes.forEach((note, index) => { %>
+                    <div class="border p-4 mb-4" style="border-radius: 3rem; padding: 2rem; overflow: hidden; word-wrap: break-word;">
+                        <%= note.text %>
+                    </div>
+                <% }); %>
+            <% } else { %>
+                <p>No notes available</p>
+            <% } %>
+        </div>
+    </div>
+</body>
+
+</html>

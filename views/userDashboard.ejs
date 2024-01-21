@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/output.css" rel="stylesheet">
+   
+    <title>main</title>
+</head>
+
+<body class="bg-[#B3B8F5]">
+    <header class="text-gray-400 bg-[#B3B8F5] body-font ">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a href="/" class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+                <img src="/SnapTextLogo.png" class="h-12">
+                <span class="ml-3 text-3xl text-white hover:text-black">SnapText</span>
+            </a>
+            <a href="/user/notes" class="inline-flex items-end bg-[#6F7AFF] border-0 py-3 px-5 focus:outline-none hover:bg-blue-700 text-white rounded-md text-base mt-4 md:mt-0 md:ml-auto md:mr-5 flex flex-wrap items-end text-base justify-end">Notes</a>
+            <a href="/" class="bg-[#6F7AFF] border-0 py-3 px-5 focus:outline-none hover:bg-blue-700 text-white rounded-md">Sign Out</a>
+        </div>
+    </header>
+    <hr class="h-px bg-gray-200 border-0 dark:bg-gray-700">
+
+    <div class="p-6 ml-6 bg-white border border-gray-200 rounded-lg shadow bg-[#B3B8F5]" style="padding: 9rem; margin: 8rem;">
+        <form action="/user/upload" method="post" enctype="multipart/form-data">
+            <div class="flex items-center justify-center w-[92%] h-[15rem]">
+                
+                <label for="dropzone-file" class="flex flex-col items-center justify-center w-full h-64 border-2 border-dashed rounded-lg cursor-pointer bg-[#B3B8F5]" style="height: 12rem;">
+                    <h1 class = "text-white">Upload your file here</h1>
+                    <input id="dropzone-file" type="file" name="image" class="hidden" />
+                </label>
+                
+            </div>
+            <button type="submit" class="bg-[#6F7AFF] border-0 py-3 px-5 focus:outline-none hover:bg-blue-700 text-white rounded-md" style="display: flex; align-content: center; margin:auto; margin-top: 1rem;">Upload</button>
+        </form>
+        
+    </div>
+
+    
+</body>
+</html>
