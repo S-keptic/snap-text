@@ -5,7 +5,7 @@ The SnapText web app revolutionizes the way you save handwritten or printed info
 
  
 Features:   
-
+ 
 1)Text Recognition: Utilizes Tesseract.js (advanced OCR Optical Character Recognition)  technology to extract text or numbers from images.
 
 2)Save Converted text: Stores the converted the recognized text, creating a comprehensive repository for future reference.
